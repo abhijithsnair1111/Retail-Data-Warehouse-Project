@@ -60,6 +60,10 @@ layer according to the pre defined actions that should be taken inside each laye
   - Data is manupulated by **Cleaning** , **Standardizing** and **Normalizing** each column
 
   - Data **Enrichment** is also done through **Derived Columns**
+ 
+  - Data **Realationship** between columns are established
+
+![Data Integration](docs/data_integration.png)
 
 - **Gold Layer**
   - No data is loaded into the Gold layer as tables
@@ -68,7 +72,9 @@ layer according to the pre defined actions that should be taken inside each laye
 
   - Data transformation includes **Integraton**, **Aggregations** and **Business Logics**
 
-  - The Fact and Dimension tabels are modelled to form as **Star Schema** structure to the data
+  - The **Fact** and **Dimension** tabels are modelled to form a **Star Schema** structure to the data
+
+![Entity Relationship Diagram](docs/entity_relationship_diagram.png)
 
 ### Business Ready Data
 After processing data through three layer the end data is user friendly and ready for business actions
