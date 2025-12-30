@@ -43,7 +43,7 @@ tables inside of them regrading details about **Customers** , **Products** and *
       
     - Additional Product Category information `erp_px_cat_g1v2`
 
-### ETL Process
+### Data Warehouse
 The Medallion structure was selected for this particular project in order to establish a strict seperation of cencerns. 
 The entire Extract, Transform and Load processes for this project was implemented multiple times through out the these three
 layer according to the pre defined actions that should be taken inside each layer
@@ -76,7 +76,8 @@ The Medallion structure provides an outcome that can be used for consumption by 
 
 ![Data Flow](docs/data_flow.png)
 
-
+#### Data Model
+Through out the ETL process 
 
 
 
