@@ -82,9 +82,13 @@ The Medallion structure provides an outcome that can be used for consumption by 
 
 ![Data Flow](docs/data_flow.png)
 
-#### Data Model
-Through out the ETL process 
+## 🚀 Project Reqirements
+Build an End-To-End Data Warehouse to convert raw data into actionable insights
 
+### **Specifications**
+
+- [x] Import data from two sources, CRM and ERP into Data Warehouse
+## 📈 Business Questions And Insights
 
 
 
