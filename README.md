@@ -74,7 +74,7 @@ layer according to the pre defined actions that should be taken inside each laye
 After processing data through three layer the end data is user friendly and ready for business actions
 The Medallion structure provides an outcome that can be used for consumption by analysts ans non-technical users accordingly
 
-
+![Data Flow](docs/data_flow.png)
 
 
 
