@@ -141,6 +141,10 @@ all the necessary schemas **bronze** , **silver** and **gold** within the databs
 
 5. The `proc_load_gold` query for creating fact and dimension tables(views) in the gold layer
 
+6. All the queries follow Truncate and Insert method, Caution when executing these queries as the erase
+   the object with the same name before creating or loading the objects
+
+7. Test queries for each procedure is provided in the test folder for sanity check
 
 
 
