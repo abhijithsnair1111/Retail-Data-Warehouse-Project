@@ -19,18 +19,18 @@ USE master ;
 GO
 
 -- Drop and recreate the 'DataWarehouse' database
-IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
+IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'RetailDB')
 BEGIN
-	ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE ;
-	DROP DATABASE DataWarehouse ;
+	ALTER DATABASE RetailDB SET SINGLE_USER WITH ROLLBACK IMMEDIATE ;
+	DROP DATABASE RetailDB ;
 END ;
 GO
 
--- Create the 'DataWareHouse' database
-CREATE DATABASE DataWarehouse ;
+-- Create the 'RetailDB' database
+CREATE DATABASE RetailDB ;
 GO
 
-USE DataWarehouse ;
+USE RetailDB ;
 GO
 
 -- Create the Schemas
