@@ -84,7 +84,7 @@ The Medallion structure provides an outcome that can be used for consumption by 
 
 ### Documentation
 Additonal documentation includes **Data Catalog** with further breakdown of each tables and their columns of the final tables
-along with detailed documentation regarding the **Naming Conventions** used throughout the process for naming all the objects within the Warehouse
+along with detailed documentation regarding the **Naming Conventions** used throughout the process for naming various objects
 
 - [Data Catalog](docs/data_catalog.md)
 
@@ -92,39 +92,54 @@ along with detailed documentation regarding the **Naming Conventions** used thro
 
 ## 🚀 Project Reqirements
 Build an End-To-End Data Warehouse to convert raw data from retail store accross different countries into actionable insights.  
-The initial data is stores in the source as group of CSV files within two eintites regarding Customer Relationship Management (CRM) and 
-Enterprise Resource Planning (ERP). Procide clear documentation for every step of the process to be shared with Analysts and Stakeholders for  
-further use cases.
+The initial data is stores in the source as group of CSV files within two eintites regarding Customer Relationship Management (CRM)  
+and Enterprise Resource Planning (ERP). Procide clear documentation for every step of the process to be shared with Analysts and  
+Stakeholders for further use cases.
 
 ### **Specifications**
 
 - [x] **Source :** Import data from two sources, CRM and ERP into Data Warehouse
 - [x] **Quality :** Clean, Standardize and Normalize the data for futher processes
 - [x] **Integration :** Cobime and Connect the various elements in the data to form a analysis ready model
-- [x] **Documentation :** Provide all the necessary documentation require for Analyst and other Non-Technical users to understand the data
+- [x] **Documentation :** Provide all the necessary documentation require for Analyst and other Non-Technical users
 
 ## 📈 Business Questions And Insights
-With the final layer complete, Stakeholders and Analyst can enquire any questions regarding Products, Customers and Sales for Reporting and Business Optimization
+With the final layer complete, Stakeholders and Analyst can enquire any questions regarding Products, Customers and Sales for  
+Reporting and Business Optimization
 
 Some important questions may include :
 - **What are the 5 top selling products across various categories ?**
-  - A query connecting the **Sales** and **Products** tables by aggregating and sorting them based on category and total sales can provide an answer
+  - A query connecting the **Sales** and **Products** tables by aggregating and sorting them based on category  
+    and total sales can provide an answer
     
 - **Which customers has the highest purchasing history to be included in the an appreciation program ?**
-  - Connecting the the **Sales** and **Customers** tables will provide a detailed overview of the order details by each customer
+  - Connecting the the **Sales** and **Customers** tables will provide a detailed overview of the order  
+    details by each customer
     
 - **Are their any correlation between geograhical area and product categories ?**
-  - Geogaphical details are provided in the **Customers table and can be connected with the **Products** table to fetch category by location details
+  - Geogaphical details are provided in the **Customers table and can be connected with the **Products**  
+    table to fetch category by location details
     
 - What is the overall performance of a retail stores ?
-  - A broad enough query with multiple connections across all three tables can provide all the necessary details about a the business performance
+  - A broad enough query with multiple connections across all three tables can provide all the necessary  
+    details about a the business performance
 
 ##  🔍 How To Run
-The entire project was done using **Microsoft SQL Server**, The **SQL** and **T-SQL** Syntax used for all the scripts are written in accordance with MS SQL Server  
-Compatability. It recomended to use MS SQL Server for running the scripts Provided in this repository
+The entire project was done using **Microsoft SQL Server**, The **SQL** and **T-SQL** Syntax  
+used for all the scripts are written in accordance with MS SQL Server compatability.  
+It recomended to use MS SQL Server for running the scripts provided in this repository
 
 ### Step by Step guide
-1. The [source dataset](dataset) is provided in the dataset folder
+1. The source dataset is provided in the datasets folder as `source_crp` and `source_erm`
+
+2. The `init_database` query will create a brand new databse called **RetailDWH** along with  
+all the necessary schemas **bronze** , **silver** and **gold** within the databse
+
+3. The `ddl_bronze` qurey followed by `proc_load_bronze` for creating bronze tables and loading data
+
+4. The `ddl_silver` query followed by `proc_load_silver` for creating silver tables and loading data
+
+5. The `proc_load_gold` query for creating fact and dimension tables(views) in the gold layer
 
 
 
