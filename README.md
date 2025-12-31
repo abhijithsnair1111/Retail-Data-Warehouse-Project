@@ -141,7 +141,7 @@ all the necessary schemas **bronze** , **silver** and **gold** within the databs
 
 4. The [`ddl_silver`](scripts/silver/ddl_silver.sql) query followed by [`proc_silver_load`](scripts/silver/proc_silver_load.sql) for creating silver tables and loading data
 
-5. The [`proc_load_gold`](scripts/gold/ddl_gold.sql) query for creating fact and dimension tables(views) in the gold layer
+5. The [`ddl_gold`](scripts/gold/ddl_gold.sql) query for creating fact and dimension tables(views) in the gold layer
 
 6. All the queries follow Truncate and Insert method, Caution when executing these queries as  
    the erase the object with the same name before creating or loading the objects
