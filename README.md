@@ -91,9 +91,9 @@ along with detailed documentation regarding the **Naming Conventions** used thro
 - [Naming Conventions](docs/naming_conventions.md)
 
 ## 🚀 Project Reqirements
-Build an End-To-End Data Warehouse to convert raw data from retail store accross different countries into actionable insights.  
-The initial data is stores in the source as group of CSV files within two eintites regarding Customer Relationship Management (CRM)  
-and Enterprise Resource Planning (ERP). Procide clear documentation for every step of the process to be shared with Analysts and  
+Build an End-To-End Data Warehouse to convert raw data from retail store accross different countries into actionable insights. 
+The initial data is stores in the source as group of CSV files within two eintites regarding Customer Relationship Management (CRM)
+and Enterprise Resource Planning (ERP). Procide clear documentation for every step of the process to be shared with Analysts and
 Stakeholders for further use cases.
 
 ### **Specifications**
