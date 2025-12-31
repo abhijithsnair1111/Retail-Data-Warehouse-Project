@@ -1,6 +1,7 @@
 # Retail Data Warehouse : ETL Medallion Pipeline
 
 Welcome to the Retail Data Warehouse Project 🪛  
+
 This is a comprehensive SQL **Data Warehouse Project** consisting of an end-to-end **ETL Pipeline** implemented through the **Medallion Architecture.**
 
 ## 🚀 Project Overview
@@ -12,6 +13,7 @@ This main concepts of this project are
   
 - **Data Modelling :** Developing **Fact** and **Dimension** tables using **Star Schema** for Analysis and Reporting purposes
 
+---
 ## 🛠 Data Architecture
 The Data architecture of this project is based on the **Medallion Structure**, that is the data flows through three layers **Bronze** , **Silver** and **Gold**  
 
@@ -23,6 +25,7 @@ The Data architecture of this project is based on the **Medallion Structure**, t
 
 **Gold Layer :** Data is not extracted, but only access to data that has been combined and organised from the Silver layer is provided
 
+---
 ## 💡 Project Pipeline
 ### Source
 The source file for this project consisted of two major groups of data tables, each with three  
@@ -90,6 +93,7 @@ along with detailed documentation regarding the **Naming Conventions** used thro
 
 - [Naming Conventions](docs/naming_conventions.md)
 
+---
 ## 🚀 Project Reqirements
 Build an End-To-End Data Warehouse to convert raw data from retail store accross different countries into actionable insights. 
 The initial data is stores in the source as group of CSV files within two eintites regarding Customer Relationship Management (CRM)
@@ -106,6 +110,7 @@ Stakeholders for further use cases.
 
 - [x] **Documentation :** Provide all the necessary documentation require for Analyst and other Non-Technical users
 
+---
 ## 📈 Business Questions And Insights
 With the final layer complete, Stakeholders and Analyst can enquire any questions regarding Products, Customers and Sales for Reporting and Business Optimization
 
@@ -126,6 +131,7 @@ Some important questions may include :
   - A broad enough query with multiple connections across all three tables can provide all the necessary  
     details about a the business performance
 
+---
 ##  🔍 How To Run
 The entire project was done using **Microsoft SQL Server**, The **SQL** and **T-SQL** Syntax  
 used for all the scripts are written in accordance with MS SQL Server compatability.  
@@ -148,7 +154,19 @@ all the necessary schemas **bronze** , **silver** and **gold** within the databs
 
 8. Test queries for each procedure is provided in the test folder for sanity check
 
+---
+## 🪛 Tech Stack
+**Language :** SQL (T-SQL)  
 
+**Server :** Microsoft SQL Server  
 
+**Architecture :** Medallion  
 
+**Model :** Star Schema
 
+---
+This entire project is Part One of the **Fullstack Data Analysis and BI Reporting Project** split into **Data Warehouse** , **Exploratory Data Analysis** and **Advanced Analytics and BI Reporting**
+
+Thank You for visiting this Retail Data Warehouse Project 🪛
+
+---
