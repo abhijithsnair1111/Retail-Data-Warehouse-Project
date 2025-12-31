@@ -78,17 +78,55 @@ layer according to the pre defined actions that should be taken inside each laye
 
 ### Business Ready Data
 After processing data through three layer the end data is user friendly and ready for business actions
-The Medallion structure provides an outcome that can be used for consumption by analysts ans non-technical users accordingly
+The Medallion structure provides an outcome that can be used for consumption by Analysts ans Non-Technical users accordingly
 
 ![Data Flow](docs/data_flow.png)
 
+### Documentation
+Additonal documentation includes **Data Catalog** with further breakdown of each tables and their columns of the final tables
+along with detailed documentation regarding the **Naming Conventions** used throughout the process for naming all the objects within the Warehouse
+
+- [Data Catalog](docs/data_catalog.md)
+
+- [Naming Conventions](docs/naming_conventions.md)
+
 ## 🚀 Project Reqirements
-Build an End-To-End Data Warehouse to convert raw data into actionable insights
+Build an End-To-End Data Warehouse to convert raw data from retail store accross different countries into actionable insights.  
+The initial data is stores in the source as group of CSV files within two eintites regarding Customer Relationship Management (CRM) and 
+Enterprise Resource Planning (ERP). Procide clear documentation for every step of the process to be shared with Analysts and Stakeholders for  
+further use cases.
 
 ### **Specifications**
 
-- [x] Import data from two sources, CRM and ERP into Data Warehouse
+- [x] **Source :** Import data from two sources, CRM and ERP into Data Warehouse
+- [x] **Quality :** Clean, Standardize and Normalize the data for futher processes
+- [x] **Integration :** Cobime and Connect the various elements in the data to form a analysis ready model
+- [x] **Documentation :** Provide all the necessary documentation require for Analyst and other Non-Technical users to understand the data
+
 ## 📈 Business Questions And Insights
+With the final layer complete, Stakeholders and Analyst can enquire any questions regarding Products, Customers and Sales for Reporting and Business Optimization
+
+Some important questions may include :
+- **What are the 5 top selling products across various categories ?**
+  - A query connecting the **Sales** and **Products** tables by aggregating and sorting them based on category and total sales can provide an answer
+    
+- **Which customers has the highest purchasing history to be included in the an appreciation program ?**
+  - Connecting the the **Sales** and **Customers** tables will provide a detailed overview of the order details by each customer
+    
+- **Are their any correlation between geograhical area and product categories ?**
+  - Geogaphical details are provided in the **Customers table and can be connected with the **Products** table to fetch category by location details
+    
+- What is the overall performance of a retail stores ?
+  - A broad enough query with multiple connections across all three tables can provide all the necessary details about a the business performance
+
+##  🔍 How To Run
+The entire project was done using **Microsoft SQL Server**, The **SQL** and **T-SQL** Syntax used for all the scripts are written in accordance with MS SQL Server  
+Compatability. It recomended to use MS SQL Server for running the scripts Provided in this repository
+
+### Step by Step guide
+1. The [source dataset](dataset) is provided in the dataset folder
+
+
 
 
 
