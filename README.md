@@ -99,8 +99,11 @@ Stakeholders for further use cases.
 ### **Specifications**
 
 - [x] **Source :** Import data from two sources, CRM and ERP into Data Warehouse
+
 - [x] **Quality :** Clean, Standardize and Normalize the data for futher processes
+
 - [x] **Integration :** Cobime and Connect the various elements in the data to form a analysis ready model
+
 - [x] **Documentation :** Provide all the necessary documentation require for Analyst and other Non-Technical users
 
 ## 📈 Business Questions And Insights
