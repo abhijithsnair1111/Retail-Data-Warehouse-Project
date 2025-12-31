@@ -104,8 +104,7 @@ Stakeholders for further use cases.
 - [x] **Documentation :** Provide all the necessary documentation require for Analyst and other Non-Technical users
 
 ## 📈 Business Questions And Insights
-With the final layer complete, Stakeholders and Analyst can enquire any questions regarding Products, Customers and Sales for  
-Reporting and Business Optimization
+With the final layer complete, Stakeholders and Analyst can enquire any questions regarding Products, Customers and Sales for Reporting and Business Optimization
 
 Some important questions may include :
 - **What are the 5 top selling products across various categories ?**
@@ -141,7 +140,7 @@ all the necessary schemas **bronze** , **silver** and **gold** within the databs
 
 5. The `proc_load_gold` query for creating fact and dimension tables(views) in the gold layer
 
-6. All the queries follow Truncate and Insert method, Caution when executing these queries as the erase
+6. All the queries follow Truncate and Insert method, Caution when executing these queries as the erase  
    the object with the same name before creating or loading the objects
 
 7. Test queries for each procedure is provided in the test folder for sanity check
