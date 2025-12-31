@@ -134,7 +134,7 @@ It recomended to use MS SQL Server for running the scripts provided in this repo
 ### Step by Step guide
 1. The source dataset is provided in the datasets folder as `source_crp` and `source_erm`
 
-2. The `init_database` query will create a brand new databse called **RetailDWH** along with  
+2. The [`init_database`](datasets query will create a brand new databse called **RetailDWH** along with  
 all the necessary schemas **bronze** , **silver** and **gold** within the databse
 
 3. The `ddl_bronze` qurey followed by `proc_load_bronze` for creating bronze tables and loading data
@@ -143,10 +143,10 @@ all the necessary schemas **bronze** , **silver** and **gold** within the databs
 
 5. The `proc_load_gold` query for creating fact and dimension tables(views) in the gold layer
 
-6. All the queries follow Truncate and Insert method, Caution when executing these queries as the erase  
-   the object with the same name before creating or loading the objects
+6. All the queries follow Truncate and Insert method, Caution when executing these queries as  
+   the erase the object with the same name before creating or loading the objects
 
-7. Test queries for each procedure is provided in the test folder for sanity check
+8. Test queries for each procedure is provided in the test folder for sanity check
 
 
 
