@@ -137,11 +137,11 @@ It recomended to use MS SQL Server for running the scripts provided in this repo
 2. The [`init_database`](scripts/init_database.sql) query will create a brand new databse called **RetailDB** along with  
 all the necessary schemas **bronze** , **silver** and **gold** within the databse
 
-3. The `ddl_bronze` qurey followed by `proc_load_bronze` for creating bronze tables and loading data
+3. The [`ddl_bronze`](scripts/bronze/ddl_bronze.sql) qurey followed by [`proc_load_bronze`](scripts/bronze/proc_load_bronze.sql) for creating bronze tables and loading data
 
-4. The `ddl_silver` query followed by `proc_load_silver` for creating silver tables and loading data
+4. The [`ddl_silver`](scripts/silver/ddl_silver.sql) query followed by [`proc_load_silver`](scripts/silver/proc_load_silver.sql) for creating silver tables and loading data
 
-5. The `proc_load_gold` query for creating fact and dimension tables(views) in the gold layer
+5. The [`proc_load_gold`](scripts/gold/ddl_gold.sql) query for creating fact and dimension tables(views) in the gold layer
 
 6. All the queries follow Truncate and Insert method, Caution when executing these queries as  
    the erase the object with the same name before creating or loading the objects
