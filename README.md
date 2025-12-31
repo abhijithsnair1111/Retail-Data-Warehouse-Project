@@ -152,7 +152,8 @@ all the necessary schemas **bronze** , **silver** and **gold** within the databs
 6. All the queries follow Truncate and Insert method, Caution when executing these queries as  
    the erase the object with the same name before creating or loading the objects
 
-8. Test queries for each procedure is provided in the test folder for sanity check
+8. Quality checks for tables inside silver and gold schemas, [`quality_checks_silver`](tests/quality_checks_silver.sql) and [`quality_checks_gold`](test/quality_checks_gold.sql)
+   should be executed in order to check data quality
 
 ---
 ## 🪛 Tech Stack
