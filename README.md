@@ -132,9 +132,9 @@ used for all the scripts are written in accordance with MS SQL Server compatabil
 It recomended to use MS SQL Server for running the scripts provided in this repository
 
 ### Step by Step guide
-1. The source dataset is provided in the datasets folder as `source_crp` and `source_erm`
+1. The source dataset is provided in the datasets folder as [`source_crm`](dataset/source_crm) and [`source_erp`](dataset/source_erp)
 
-2. The [`init_database`](datasets query will create a brand new databse called **RetailDWH** along with  
+2. The `init_database` query will create a brand new databse called **RetailDWH** along with  
 all the necessary schemas **bronze** , **silver** and **gold** within the databse
 
 3. The `ddl_bronze` qurey followed by `proc_load_bronze` for creating bronze tables and loading data
