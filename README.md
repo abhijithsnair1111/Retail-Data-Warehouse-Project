@@ -156,7 +156,7 @@ all the necessary schemas **bronze** , **silver** and **gold** within the databs
 
 ---
 ## 🪛 Tech Stack
-**Language :** SQL (T-SQL)  
+**Language :** SQL (TSQL)  
 
 **Server :** Microsoft SQL Server  
 
