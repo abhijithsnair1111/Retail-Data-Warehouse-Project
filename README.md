@@ -4,6 +4,8 @@ Welcome to the Retail Data Warehouse Project 🪛
 
 This is a comprehensive SQL **Data Warehouse Project** consisting of an end-to-end **ETL Pipeline** implemented through the **Medallion Architecture.**
 
+---
+
 ## 🚀 Project Overview
 The goal of this project is to take unorganized data from a retail chain spanning across different countries, put them through a full ETL pipeline and produce clean and business ready data for analysis and reporting.  
 This main concepts of this project are
