@@ -1,4 +1,4 @@
-# Retail Data Warehouse : ETL Medallion Pipeline
+# Retail Data Warehouse : ETL Pipeline with Medallion Architecture and Star Schema for a Retail Chain
 
 Welcome to the Retail Data Warehouse Project 🪛  
 
