@@ -170,7 +170,7 @@ all the necessary schemas **bronze** , **silver** and **gold** within the databs
 **Model :** Star Schema
 
 ---
-This entire project is Part One of the **Fullstack Data Analysis and BI Reporting Project** split into [**Data Warehouse**](https://github.com/abhijithsnair1111/Retail-Data-Warehouse-Project.git) and **Data Analytics and BI Reporting**
+This entire project is Part One of the **Data Warehouse, Data Analysis and BI Reporting Project** split into [**Data Warehouse Project**](https://github.com/abhijithsnair1111/Retail-Data-Warehouse-Project.git) and **Data Analytics Project** and **PowerBI Reporting Project**
 
 Thank You for visiting this Retail Data Warehouse Project 🪛
 
